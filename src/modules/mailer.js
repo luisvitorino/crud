@@ -10,6 +10,12 @@ const transport = nodemailer.createTransport({
     auth: {user, pass },
   });
 
+//transport.use('compile', hbs({
+  //  viewEngine: 'handlebars',
+  //  viewPath: path.resolve('./src/resources/mail/'),
+  //  extName: '.html',
+//}));
+
 transport.use('compile', hbs({
     viewEngine: {
       defaultLayout: undefined,
