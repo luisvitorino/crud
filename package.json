@@ -14,7 +14,8 @@
     "mongose": "^0.0.2-security",
     "nodemailer": "^6.6.3",
     "nodemailer-express-handlebars": "^4.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {},
   "scripts": {
@@ -23,5 +24,13 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvitorino/crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisvitorino/crud/issues"
+  },
+  "homepage": "https://github.com/luisvitorino/crud#readme",
   "description": ""
 }
